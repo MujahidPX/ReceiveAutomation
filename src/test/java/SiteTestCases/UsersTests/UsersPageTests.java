@@ -56,9 +56,9 @@ public class UsersPageTests extends DriverBaseClass {
 		siteActions.navigateURL(GlobalVariables.qa_Url);
 		loginPage.login(GlobalVariables.AutomationEmail, GlobalVariables.AutomationPassword);
 		usersPage.addNewUser(GlobalVariables.AdminUserRole, GlobalVariables.AddNewUserEmail, GlobalVariables.locationSearched);
-		usersPage.editUser(GlobalVariables.AdminUserRole, GlobalVariables.locationSearched);
-		usersPage.activateUser(GlobalVariables.AdminUserRole, GlobalVariables.locationSearched);
-		usersPage.deleteUser();
+		//usersPage.editUser(GlobalVariables.AdminUserRole, GlobalVariables.locationSearched);
+		//usersPage.activateUser(GlobalVariables.AdminUserRole, GlobalVariables.locationSearched);
+		//usersPage.deleteUser();
 		loginPage.logout();		
 	}
 	

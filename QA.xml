@@ -431,7 +431,7 @@
 		</classes>
 	</test>
 	
-	<test name="AddPaymentMethod">
+	<!-- test name="AddPaymentMethod">
 		<parameter name="url"
 			value="https://qa.portal.packagex.xyz/login" />
 		<parameter name="browser" value="Chrome"></parameter>
@@ -501,7 +501,7 @@
 			</methods>
 			</class>			
 		</classes>
-	</test>	
+	</test -->	
 	
 	<test name="CreateNewWorkflow">
 		<parameter name="url"

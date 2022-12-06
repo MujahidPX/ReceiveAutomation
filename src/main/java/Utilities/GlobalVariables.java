@@ -18,6 +18,7 @@ public class GlobalVariables extends ExcelFile {
       public static String AdminPassword = "Pakistan_123";
       
       public static String AutomationEmail = "testing-automation@yopmail.com";
+      //public static String AutomationEmail = "jinnah@packagex.xyz";
       public static String AutomationPassword = "Abcd1234!";
       
       public static String AutomationEmail1 = "test-automation1@yopmail.com";
