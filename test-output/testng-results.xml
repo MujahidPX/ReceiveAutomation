@@ -1,25 +1,19 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="290" total="300" passed="0" failed="10" skipped="0">
+<testng-results ignored="2" total="3" passed="0" failed="0" skipped="1">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2022-11-28T13:02:10 PKT" name="MailRoom2.Automation QA" finished-at="2022-11-28T13:13:40 PKT" duration-ms="689569">
+  <suite started-at="2022-12-08T15:54:05 PKT" name="MailRoom2.Automation QATest3" finished-at="2022-12-08T15:54:14 PKT" duration-ms="8854">
     <groups>
-      <group name="UploadCSV">
-        <method signature="RecipientsPageTests.UploadCSVUPMerge(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e]" name="UploadCSVUPMerge" class="SiteTestCases.RecipientsTests.RecipientsPageTests"/>
-        <method signature="RecipientsPageTests.UploadCSVUPOverwrite(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2]" name="UploadCSVUPOverwrite" class="SiteTestCases.RecipientsTests.RecipientsPageTests"/>
-        <method signature="RecipientsPageTests.UploadCSVInvalidEmail(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d]" name="UploadCSVInvalidEmail" class="SiteTestCases.RecipientsTests.RecipientsPageTests"/>
-        <method signature="RecipientsPageTests.UploadCSVDuplicateEmail(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154]" name="UploadCSVDuplicateEmail" class="SiteTestCases.RecipientsTests.RecipientsPageTests"/>
-        <method signature="RecipientsPageTests.UploadCSVNameEmailMissing(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7]" name="UploadCSVNameEmailMissing" class="SiteTestCases.RecipientsTests.RecipientsPageTests"/>
-        <method signature="RecipientsPageTests.UploadCSVEmailMissing(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1]" name="UploadCSVEmailMissing" class="SiteTestCases.RecipientsTests.RecipientsPageTests"/>
-        <method signature="RecipientsPageTests.UploadCSVLongAdress(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116]" name="UploadCSVLongAdress" class="SiteTestCases.RecipientsTests.RecipientsPageTests"/>
-        <method signature="RecipientsPageTests.UploadCSVUpdateMerge(java.lang.String,java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6]" name="UploadCSVUpdateMerge" class="SiteTestCases.RecipientsTests.RecipientsPageTests"/>
-        <method signature="RecipientsPageTests.UploadCSVEditUploadMerge(java.lang.String,java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86]" name="UploadCSVEditUploadMerge" class="SiteTestCases.RecipientsTests.RecipientsPageTests"/>
-        <method signature="RecipientsPageTests.UploadCSVUnitGroup(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" name="UploadCSVUnitGroup" class="SiteTestCases.RecipientsTests.RecipientsPageTests"/>
-      </group> <!-- UploadCSV -->
+      <group name="Workflows">
+        <method signature="WorkflowsPageTests.PreviewCustomize(java.lang.String)[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" name="PreviewCustomize" class="SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests"/>
+      </group> <!-- Workflows -->
+      <group name="Settings">
+        <method signature="WorkflowsPageTests.PreviewCustomize(java.lang.String)[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" name="PreviewCustomize" class="SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests"/>
+      </group> <!-- Settings -->
     </groups>
-    <test started-at="2022-11-28T13:02:10 PKT" name="UploadCSVUPMerge" finished-at="2022-11-28T13:03:49 PKT" duration-ms="98768">
-      <class name="SiteTestCases.RecipientsTests.RecipientsPageTests">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e]" started-at="2022-11-28T13:02:10 PKT" name="initDriver" finished-at="2022-11-28T13:02:27 PKT" duration-ms="17334" status="PASS">
+    <test started-at="2022-12-08T15:54:05 PKT" name="SignInOptions_EnableMagicLink" finished-at="2022-12-08T15:54:14 PKT" duration-ms="8854">
+      <class name="SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests">
+        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:05 PKT" name="initDriver" finished-at="2022-12-08T15:54:14 PKT" duration-ms="8627" status="FAIL">
           <params>
             <param index="0">
               <value>
@@ -27,245 +21,38 @@
               </value>
             </param>
           </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e]" started-at="2022-11-28T13:02:28 PKT" name="initPageObjectClass" finished-at="2022-11-28T13:02:28 PKT" duration-ms="160" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass -->
-        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e]" started-at="2022-11-28T13:02:28 PKT" name="initPageObjectClass1" finished-at="2022-11-28T13:02:28 PKT" duration-ms="42" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass1 -->
-        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e]" started-at="2022-11-28T13:02:28 PKT" name="initPageObjectClass2" finished-at="2022-11-28T13:02:28 PKT" duration-ms="97" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass2 -->
-        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e]" started-at="2022-11-28T13:02:28 PKT" name="initPageObjectClass3" finished-at="2022-11-28T13:02:28 PKT" duration-ms="9" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass3 -->
-        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e]" started-at="2022-11-28T13:02:28 PKT" name="initPageObjectClass4" finished-at="2022-11-28T13:02:28 PKT" duration-ms="93" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass4 -->
-        <test-method signature="UploadCSVUPMerge(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e]" started-at="2022-11-28T13:02:28 PKT" name="UploadCSVUPMerge" finished-at="2022-11-28T13:03:17 PKT" duration-ms="48682" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://qa.portal.packagex.xyz/login]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.122)
+              <![CDATA[Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'VX-LT-0082', ip: '192.168.7.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [654e8f5c8ca88833743283213fe44151, findElement {using=xpath, value=//button[@aria-label='Choose Location']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MUHAMM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51493/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 654e8f5c8ca88833743283213fe44151]]>
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--incognito], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--incognito], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.122)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
 Build info: version: '4.1.2', revision: '9a5a329c5a'
 System info: host: 'VX-LT-0082', ip: '192.168.7.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
 Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [654e8f5c8ca88833743283213fe44151, findElement {using=xpath, value=//button[@aria-label='Choose Location']}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MUHAMM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51493/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 654e8f5c8ca88833743283213fe44151
-at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--incognito], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--incognito], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
 at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
 at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.ElementLocation$ElementFinder$2.findElement(ElementLocation.java:162)
-at org.openqa.selenium.remote.ElementLocation.findElement(ElementLocation.java:60)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:383)
-at org.openqa.selenium.remote.RemoteWebDriver.findElement(RemoteWebDriver.java:375)
-at org.openqa.selenium.support.pagefactory.DefaultElementLocator.findElement(DefaultElementLocator.java:70)
-at org.openqa.selenium.support.pagefactory.internal.LocatingElementHandler.invoke(LocatingElementHandler.java:39)
-at com.sun.proxy.$Proxy21.toString(Unknown Source)
-at java.base/java.lang.String.valueOf(String.java:3367)
-at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
-at org.openqa.selenium.support.ui.ExpectedConditions$23.toString(ExpectedConditions.java:673)
-at java.base/java.lang.String.valueOf(String.java:3367)
-at java.base/java.lang.StringBuilder.append(StringBuilder.java:167)
-at org.openqa.selenium.support.ui.FluentWait.until(FluentWait.java:229)
-at Utilities.CommonActions.waitForElement(CommonActions.java:254)
-at Recipients.RecipientsPage.clickChooseLocation(RecipientsPage.java:1233)
-at Recipients.RecipientsPage.chooseAndSearchLocation(RecipientsPage.java:788)
-at SiteTestCases.RecipientsTests.RecipientsPageTests.UploadCSVUPMerge(RecipientsPageTests.java:109)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadCSVUPMerge -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e]" started-at="2022-11-28T13:03:17 PKT" name="tearDown" finished-at="2022-11-28T13:03:17 PKT" duration-ms="3" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UploadCSVUPMerge status=FAILURE method=RecipientsPageTests.UploadCSVUPMerge(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <exception class="org.openqa.selenium.NoSuchWindowException">
-            <message>
-              <![CDATA[no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.122)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'VX-LT-0082', ip: '192.168.7.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [654e8f5c8ca88833743283213fe44151, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MUHAMM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51493/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 654e8f5c8ca88833743283213fe44151]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.NoSuchWindowException: no such window: target window already closed
-from unknown error: web view not found
-  (Session info: chrome=107.0.5304.122)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'VX-LT-0082', ip: '192.168.7.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [654e8f5c8ca88833743283213fe44151, screenshot {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MUHAMM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51493/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 654e8f5c8ca88833743283213fe44151
-at jdk.internal.reflect.GeneratedConstructorAccessor24.newInstance(Unknown Source)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-at org.openqa.selenium.remote.RemoteWebDriver.getScreenshotAs(RemoteWebDriver.java:349)
-at BaseClasses.DriverBaseClass.getScreenshot(DriverBaseClass.java:137)
-at BaseClasses.DriverBaseClass.tearDown(DriverBaseClass.java:250)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
-at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
-at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
-at org.testng.internal.TestInvoker.runConfigMethods(TestInvoker.java:700)
-at org.testng.internal.TestInvoker.runAfterGroupsConfigurations(TestInvoker.java:676)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:660)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.NoSuchWindowException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@4d1c005e]" started-at="2022-11-28T13:03:17 PKT" name="closeDriver" finished-at="2022-11-28T13:03:49 PKT" duration-ms="32294" status="FAIL">
-          <exception class="org.openqa.selenium.WebDriverException">
-            <message>
-              <![CDATA[disconnected: unable to connect to renderer
-  (failed to check if window was closed: disconnected: unable to connect to renderer)
-  (Session info: chrome=107.0.5304.122)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'VX-LT-0082', ip: '192.168.7.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [654e8f5c8ca88833743283213fe44151, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MUHAMM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51493/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 654e8f5c8ca88833743283213fe44151]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[org.openqa.selenium.WebDriverException: disconnected: unable to connect to renderer
-  (failed to check if window was closed: disconnected: unable to connect to renderer)
-  (Session info: chrome=107.0.5304.122)
-Build info: version: '4.1.2', revision: '9a5a329c5a'
-System info: host: 'VX-LT-0082', ip: '192.168.7.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
-Driver info: org.openqa.selenium.chrome.ChromeDriver
-Command: [654e8f5c8ca88833743283213fe44151, close {}]
-Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.122, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\MUHAMM~1\AppData\L...}, goog:chromeOptions: {debuggerAddress: localhost:51493}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:51493/devtoo..., se:cdpVersion: 107.0.5304.122, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
-Session ID: 654e8f5c8ca88833743283213fe44151
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
-at java.base/jdk.internal.reflect.NativeConstructorAccessorImpl.newInstance(NativeConstructorAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingConstructorAccessorImpl.newInstance(DelegatingConstructorAccessorImpl.java:45)
-at java.base/java.lang.reflect.Constructor.newInstanceWithCaller(Constructor.java:500)
-at java.base/java.lang.reflect.Constructor.newInstance(Constructor.java:481)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
-at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
-at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
-at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:614)
-at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:618)
-at org.openqa.selenium.remote.RemoteWebDriver.close(RemoteWebDriver.java:444)
-at BaseClasses.DriverBaseClass.closeDriver(DriverBaseClass.java:236)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:80)
+at BaseClasses.DriverBaseClass.initDriver(DriverBaseClass.java:185)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -275,8 +62,8 @@ at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(Met
 at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
 at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
 at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
-at org.testng.TestRunner.afterRun(TestRunner.java:877)
-at org.testng.TestRunner.run(TestRunner.java:599)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
@@ -292,46 +79,35 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- org.openqa.selenium.WebDriverException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- SiteTestCases.RecipientsTests.RecipientsPageTests -->
-    </test> <!-- UploadCSVUPMerge -->
-    <test started-at="2022-11-28T13:03:49 PKT" name="UploadCSVUPOverwrite" finished-at="2022-11-28T13:04:59 PKT" duration-ms="69651">
-      <class name="SiteTestCases.RecipientsTests.RecipientsPageTests">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2]" started-at="2022-11-28T13:03:49 PKT" name="initDriver" finished-at="2022-11-28T13:03:51 PKT" duration-ms="1925" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2]" started-at="2022-11-28T13:03:51 PKT" name="initPageObjectClass" finished-at="2022-11-28T13:03:51 PKT" duration-ms="1" status="PASS">
+        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:14 PKT" name="initPageObjectClass" finished-at="2022-12-08T15:54:14 PKT" duration-ms="63" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPageObjectClass -->
-        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2]" started-at="2022-11-28T13:03:51 PKT" name="initPageObjectClass1" finished-at="2022-11-28T13:03:51 PKT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:14 PKT" name="initPageObjectClass1" finished-at="2022-12-08T15:54:14 PKT" duration-ms="31" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPageObjectClass1 -->
-        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2]" started-at="2022-11-28T13:03:51 PKT" name="initPageObjectClass2" finished-at="2022-11-28T13:03:51 PKT" duration-ms="6" status="PASS">
+        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:14 PKT" name="initPageObjectClass2" finished-at="2022-12-08T15:54:14 PKT" duration-ms="15" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPageObjectClass2 -->
-        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2]" started-at="2022-11-28T13:03:51 PKT" name="initPageObjectClass3" finished-at="2022-11-28T13:03:51 PKT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:14 PKT" name="initPageObjectClass3" finished-at="2022-12-08T15:54:14 PKT" duration-ms="13" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPageObjectClass3 -->
-        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2]" started-at="2022-11-28T13:03:51 PKT" name="initPageObjectClass4" finished-at="2022-11-28T13:03:51 PKT" duration-ms="3" status="PASS">
+        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:14 PKT" name="initPageObjectClass4" finished-at="2022-12-08T15:54:14 PKT" duration-ms="21" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- initPageObjectClass4 -->
-        <test-method signature="UploadCSVUPOverwrite(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2]" started-at="2022-11-28T13:03:51 PKT" name="UploadCSVUPOverwrite" finished-at="2022-11-28T13:04:57 PKT" duration-ms="66470" status="FAIL">
+        <test-method is-config="true" signature="initPageObjectClass5()[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:14 PKT" name="initPageObjectClass5" finished-at="2022-12-08T15:54:14 PKT" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- initPageObjectClass5 -->
+        <test-method signature="PreviewCustomize(java.lang.String)[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:14 PKT" name="PreviewCustomize" finished-at="2022-12-08T15:54:14 PKT" duration-ms="0" status="SKIP">
           <params>
             <param index="0">
               <value>
@@ -339,34 +115,49 @@ at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
               </value>
             </param>
           </params>
-          <exception class="java.lang.IllegalStateException">
+          <exception class="org.openqa.selenium.SessionNotCreatedException">
             <message>
-              <![CDATA[cannot open system clipboard]]>
+              <![CDATA[Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'VX-LT-0082', ip: '192.168.7.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--incognito], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--incognito], extensions: []}}}]]]>
             </message>
             <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: cannot open system clipboard
-at java.desktop/sun.awt.windows.WClipboard.openClipboard(Native Method)
-at java.desktop/sun.awt.windows.WClipboard.setContentsNative(WClipboard.java:75)
-at java.desktop/sun.awt.datatransfer.SunClipboard.setContents(SunClipboard.java:105)
-at SiteElements.SiteActions.uploadAndAttachFileOverwrite(SiteActions.java:99)
-at Recipients.RecipientsPage.attachFileOverwrite(RecipientsPage.java:893)
-at Recipients.RecipientsPage.uploadCSV(RecipientsPage.java:445)
-at SiteTestCases.RecipientsTests.RecipientsPageTests.UploadCSVUPOverwrite(RecipientsPageTests.java:125)
+              <![CDATA[org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: unknown error: Chrome failed to start: exited normally.
+  (unknown error: DevToolsActivePort file doesn't exist)
+  (The process started from chrome location C:\Program Files\Google\Chrome\Application\chrome.exe is no longer running, so ChromeDriver is assuming that Chrome has crashed.)
+Build info: version: '4.1.2', revision: '9a5a329c5a'
+System info: host: 'VX-LT-0082', ip: '192.168.7.239', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '15.0.2'
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [null, newSession {capabilities=[Capabilities {browserName: chrome, goog:chromeOptions: {args: [--incognito], extensions: []}}], desiredCapabilities=Capabilities {browserName: chrome, goog:chromeOptions: {args: [--incognito], extensions: []}}}]
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:126)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:84)
+at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:62)
+at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:156)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:164)
+at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:139)
+at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:559)
+at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:246)
+at org.openqa.selenium.remote.RemoteWebDriver.<init>(RemoteWebDriver.java:168)
+at org.openqa.selenium.chromium.ChromiumDriver.<init>(ChromiumDriver.java:108)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:104)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:91)
+at org.openqa.selenium.chrome.ChromeDriver.<init>(ChromeDriver.java:80)
+at BaseClasses.DriverBaseClass.initDriver(DriverBaseClass.java:185)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
 at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
 at java.base/java.lang.reflect.Method.invoke(Method.java:564)
 at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
+at org.testng.internal.MethodInvocationHelper.invokeMethodConsideringTimeout(MethodInvocationHelper.java:62)
+at org.testng.internal.ConfigInvoker.invokeConfigurationMethod(ConfigInvoker.java:385)
+at org.testng.internal.ConfigInvoker.invokeConfigurations(ConfigInvoker.java:321)
+at org.testng.TestRunner.invokeTestConfigurations(TestRunner.java:637)
+at org.testng.TestRunner.beforeRun(TestRunner.java:627)
+at org.testng.TestRunner.run(TestRunner.java:589)
 at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
 at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
 at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
@@ -382,887 +173,37 @@ at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
 at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
 ]]>
             </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
+          </exception> <!-- org.openqa.selenium.SessionNotCreatedException -->
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- UploadCSVUPOverwrite -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2]" started-at="2022-11-28T13:04:57 PKT" name="tearDown" finished-at="2022-11-28T13:04:58 PKT" duration-ms="449" status="PASS">
+        </test-method> <!-- PreviewCustomize -->
+        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:14 PKT" name="tearDown" finished-at="2022-12-08T15:54:14 PKT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[[TestResult name=UploadCSVUPOverwrite status=FAILURE method=RecipientsPageTests.UploadCSVUPOverwrite(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2] output={null}]]]>
+                <![CDATA[[TestResult name={null} status=CREATED method=WorkflowsPageTests.PreviewCustomize(java.lang.String)[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6] output={null}]]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@43f02ef2]" started-at="2022-11-28T13:04:58 PKT" name="closeDriver" finished-at="2022-11-28T13:04:59 PKT" duration-ms="787" status="PASS">
+        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:14 PKT" name="closeDriver" finished-at="2022-12-08T15:54:14 PKT" duration-ms="1" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeDriver -->
-      </class> <!-- SiteTestCases.RecipientsTests.RecipientsPageTests -->
-    </test> <!-- UploadCSVUPOverwrite -->
-    <test started-at="2022-11-28T13:04:59 PKT" name="UploadCSVInvalidEmail" finished-at="2022-11-28T13:06:06 PKT" duration-ms="67177">
-      <class name="SiteTestCases.RecipientsTests.RecipientsPageTests">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d]" started-at="2022-11-28T13:04:59 PKT" name="initDriver" finished-at="2022-11-28T13:05:01 PKT" duration-ms="2159" status="PASS">
+        <test-method is-config="true" signature="onFinish(org.testng.ITestContext)[pri:0, instance:SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests@353352b6]" started-at="2022-12-08T15:54:14 PKT" name="onFinish" finished-at="2022-12-08T15:54:14 PKT" duration-ms="1" status="PASS">
           <params>
             <param index="0">
               <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d]" started-at="2022-11-28T13:05:01 PKT" name="initPageObjectClass4" finished-at="2022-11-28T13:05:01 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass4 -->
-        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d]" started-at="2022-11-28T13:05:01 PKT" name="initPageObjectClass3" finished-at="2022-11-28T13:05:01 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass3 -->
-        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d]" started-at="2022-11-28T13:05:01 PKT" name="initPageObjectClass" finished-at="2022-11-28T13:05:01 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass -->
-        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d]" started-at="2022-11-28T13:05:01 PKT" name="initPageObjectClass1" finished-at="2022-11-28T13:05:01 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass1 -->
-        <test-method signature="UploadCSVInvalidEmail(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d]" started-at="2022-11-28T13:05:01 PKT" name="UploadCSVInvalidEmail" finished-at="2022-11-28T13:06:05 PKT" duration-ms="63845" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://qa.portal.packagex.xyz/login]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[cannot open system clipboard]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: cannot open system clipboard
-at java.desktop/sun.awt.windows.WClipboard.openClipboard(Native Method)
-at java.desktop/sun.awt.windows.WClipboard.setContentsNative(WClipboard.java:75)
-at java.desktop/sun.awt.datatransfer.SunClipboard.setContents(SunClipboard.java:105)
-at SiteElements.SiteActions.uploadAndAttachFile_InvalidEmail(SiteActions.java:145)
-at Recipients.RecipientsPage.attachFileInvalidEmail(RecipientsPage.java:919)
-at Recipients.RecipientsPage.uploadCSV(RecipientsPage.java:449)
-at SiteTestCases.RecipientsTests.RecipientsPageTests.UploadCSVInvalidEmail(RecipientsPageTests.java:140)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadCSVInvalidEmail -->
-        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d]" started-at="2022-11-28T13:05:01 PKT" name="initPageObjectClass2" finished-at="2022-11-28T13:05:01 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass2 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d]" started-at="2022-11-28T13:06:05 PKT" name="tearDown" finished-at="2022-11-28T13:06:05 PKT" duration-ms="281" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UploadCSVInvalidEmail status=FAILURE method=RecipientsPageTests.UploadCSVInvalidEmail(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5f8e8a9d]" started-at="2022-11-28T13:06:05 PKT" name="closeDriver" finished-at="2022-11-28T13:06:06 PKT" duration-ms="890" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- SiteTestCases.RecipientsTests.RecipientsPageTests -->
-    </test> <!-- UploadCSVInvalidEmail -->
-    <test started-at="2022-11-28T13:06:06 PKT" name="UploadCSVDuplicateEmail" finished-at="2022-11-28T13:07:12 PKT" duration-ms="65820">
-      <class name="SiteTestCases.RecipientsTests.RecipientsPageTests">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154]" started-at="2022-11-28T13:06:06 PKT" name="initDriver" finished-at="2022-11-28T13:06:08 PKT" duration-ms="1802" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154]" started-at="2022-11-28T13:06:08 PKT" name="initPageObjectClass2" finished-at="2022-11-28T13:06:08 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass2 -->
-        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154]" started-at="2022-11-28T13:06:08 PKT" name="initPageObjectClass4" finished-at="2022-11-28T13:06:08 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass4 -->
-        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154]" started-at="2022-11-28T13:06:08 PKT" name="initPageObjectClass" finished-at="2022-11-28T13:06:08 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass -->
-        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154]" started-at="2022-11-28T13:06:08 PKT" name="initPageObjectClass3" finished-at="2022-11-28T13:06:08 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass3 -->
-        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154]" started-at="2022-11-28T13:06:08 PKT" name="initPageObjectClass1" finished-at="2022-11-28T13:06:08 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass1 -->
-        <test-method signature="UploadCSVDuplicateEmail(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154]" started-at="2022-11-28T13:06:08 PKT" name="UploadCSVDuplicateEmail" finished-at="2022-11-28T13:07:11 PKT" duration-ms="62972" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://qa.portal.packagex.xyz/login]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[cannot open system clipboard]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: cannot open system clipboard
-at java.desktop/sun.awt.windows.WClipboard.openClipboard(Native Method)
-at java.desktop/sun.awt.windows.WClipboard.setContentsNative(WClipboard.java:75)
-at java.desktop/sun.awt.datatransfer.SunClipboard.setContents(SunClipboard.java:105)
-at SiteElements.SiteActions.uploadAndAttachFile_DuplicateEmail(SiteActions.java:154)
-at Recipients.RecipientsPage.attachFileDuplicateEmail(RecipientsPage.java:932)
-at Recipients.RecipientsPage.uploadCSV(RecipientsPage.java:453)
-at SiteTestCases.RecipientsTests.RecipientsPageTests.UploadCSVDuplicateEmail(RecipientsPageTests.java:156)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadCSVDuplicateEmail -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154]" started-at="2022-11-28T13:07:11 PKT" name="tearDown" finished-at="2022-11-28T13:07:11 PKT" duration-ms="238" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UploadCSVDuplicateEmail status=FAILURE method=RecipientsPageTests.UploadCSVDuplicateEmail(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@6e535154]" started-at="2022-11-28T13:07:11 PKT" name="closeDriver" finished-at="2022-11-28T13:07:12 PKT" duration-ms="791" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- SiteTestCases.RecipientsTests.RecipientsPageTests -->
-    </test> <!-- UploadCSVDuplicateEmail -->
-    <test started-at="2022-11-28T13:07:12 PKT" name="UploadCSVNameEmailMissing" finished-at="2022-11-28T13:08:05 PKT" duration-ms="53831">
-      <class name="SiteTestCases.RecipientsTests.RecipientsPageTests">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7]" started-at="2022-11-28T13:07:12 PKT" name="initDriver" finished-at="2022-11-28T13:07:13 PKT" duration-ms="1616" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7]" started-at="2022-11-28T13:07:13 PKT" name="initPageObjectClass3" finished-at="2022-11-28T13:07:13 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass3 -->
-        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7]" started-at="2022-11-28T13:07:13 PKT" name="initPageObjectClass2" finished-at="2022-11-28T13:07:13 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass2 -->
-        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7]" started-at="2022-11-28T13:07:13 PKT" name="initPageObjectClass4" finished-at="2022-11-28T13:07:13 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass4 -->
-        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7]" started-at="2022-11-28T13:07:13 PKT" name="initPageObjectClass1" finished-at="2022-11-28T13:07:13 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass1 -->
-        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7]" started-at="2022-11-28T13:07:13 PKT" name="initPageObjectClass" finished-at="2022-11-28T13:07:13 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass -->
-        <test-method signature="UploadCSVNameEmailMissing(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7]" started-at="2022-11-28T13:07:13 PKT" name="UploadCSVNameEmailMissing" finished-at="2022-11-28T13:08:05 PKT" duration-ms="51258" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://qa.portal.packagex.xyz/login]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[cannot open system clipboard]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: cannot open system clipboard
-at java.desktop/sun.awt.windows.WClipboard.openClipboard(Native Method)
-at java.desktop/sun.awt.windows.WClipboard.setContentsNative(WClipboard.java:75)
-at java.desktop/sun.awt.datatransfer.SunClipboard.setContents(SunClipboard.java:105)
-at SiteElements.SiteActions.uploadAndAttachFile_NameEmailMissing(SiteActions.java:172)
-at Recipients.RecipientsPage.attachFileNameEmailMissing(RecipientsPage.java:959)
-at Recipients.RecipientsPage.uploadCSVNameEmailMissing(RecipientsPage.java:587)
-at SiteTestCases.RecipientsTests.RecipientsPageTests.UploadCSVNameEmailMissing(RecipientsPageTests.java:238)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadCSVNameEmailMissing -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7]" started-at="2022-11-28T13:08:05 PKT" name="tearDown" finished-at="2022-11-28T13:08:05 PKT" duration-ms="205" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UploadCSVNameEmailMissing status=FAILURE method=RecipientsPageTests.UploadCSVNameEmailMissing(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@48e1f6c7]" started-at="2022-11-28T13:08:05 PKT" name="closeDriver" finished-at="2022-11-28T13:08:05 PKT" duration-ms="751" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- SiteTestCases.RecipientsTests.RecipientsPageTests -->
-    </test> <!-- UploadCSVNameEmailMissing -->
-    <test started-at="2022-11-28T13:08:05 PKT" name="UploadCSVEmailMissing" finished-at="2022-11-28T13:08:59 PKT" duration-ms="53446">
-      <class name="SiteTestCases.RecipientsTests.RecipientsPageTests">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1]" started-at="2022-11-28T13:08:05 PKT" name="initDriver" finished-at="2022-11-28T13:08:07 PKT" duration-ms="1703" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method signature="UploadCSVEmailMissing(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1]" started-at="2022-11-28T13:08:07 PKT" name="UploadCSVEmailMissing" finished-at="2022-11-28T13:08:58 PKT" duration-ms="50701" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://qa.portal.packagex.xyz/login]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[cannot open system clipboard]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: cannot open system clipboard
-at java.desktop/sun.awt.windows.WClipboard.openClipboard(Native Method)
-at java.desktop/sun.awt.windows.WClipboard.setContentsNative(WClipboard.java:75)
-at java.desktop/sun.awt.datatransfer.SunClipboard.setContents(SunClipboard.java:105)
-at SiteElements.SiteActions.uploadAndAttachFile_EmailMissing(SiteActions.java:163)
-at Recipients.RecipientsPage.attachFileEmailMissing(RecipientsPage.java:945)
-at Recipients.RecipientsPage.uploadCSVMissingData(RecipientsPage.java:737)
-at SiteTestCases.RecipientsTests.RecipientsPageTests.UploadCSVEmailMissing(RecipientsPageTests.java:172)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadCSVEmailMissing -->
-        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1]" started-at="2022-11-28T13:08:07 PKT" name="initPageObjectClass3" finished-at="2022-11-28T13:08:07 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass3 -->
-        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1]" started-at="2022-11-28T13:08:07 PKT" name="initPageObjectClass" finished-at="2022-11-28T13:08:07 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass -->
-        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1]" started-at="2022-11-28T13:08:07 PKT" name="initPageObjectClass4" finished-at="2022-11-28T13:08:07 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass4 -->
-        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1]" started-at="2022-11-28T13:08:07 PKT" name="initPageObjectClass1" finished-at="2022-11-28T13:08:07 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass1 -->
-        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1]" started-at="2022-11-28T13:08:07 PKT" name="initPageObjectClass2" finished-at="2022-11-28T13:08:07 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass2 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1]" started-at="2022-11-28T13:08:58 PKT" name="tearDown" finished-at="2022-11-28T13:08:58 PKT" duration-ms="235" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UploadCSVEmailMissing status=FAILURE method=RecipientsPageTests.UploadCSVEmailMissing(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@194fad1]" started-at="2022-11-28T13:08:58 PKT" name="closeDriver" finished-at="2022-11-28T13:08:59 PKT" duration-ms="805" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- SiteTestCases.RecipientsTests.RecipientsPageTests -->
-    </test> <!-- UploadCSVEmailMissing -->
-    <test started-at="2022-11-28T13:08:59 PKT" name="UploadCSVLongAdress" finished-at="2022-11-28T13:10:11 PKT" duration-ms="72180">
-      <class name="SiteTestCases.RecipientsTests.RecipientsPageTests">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116]" started-at="2022-11-28T13:08:59 PKT" name="initDriver" finished-at="2022-11-28T13:09:01 PKT" duration-ms="1647" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116]" started-at="2022-11-28T13:09:01 PKT" name="initPageObjectClass1" finished-at="2022-11-28T13:09:01 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass1 -->
-        <test-method signature="UploadCSVLongAdress(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116]" started-at="2022-11-28T13:09:01 PKT" name="UploadCSVLongAdress" finished-at="2022-11-28T13:09:54 PKT" duration-ms="53488" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://qa.portal.packagex.xyz/login]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[cannot open system clipboard]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: cannot open system clipboard
-at java.desktop/sun.awt.windows.WClipboard.openClipboard(Native Method)
-at java.desktop/sun.awt.windows.WClipboard.setContentsNative(WClipboard.java:75)
-at java.desktop/sun.awt.datatransfer.SunClipboard.setContents(SunClipboard.java:105)
-at SiteElements.SiteActions.uploadAndAttachFile_address(SiteActions.java:136)
-at Recipients.RecipientsPage.attachFileAddress(RecipientsPage.java:906)
-at Recipients.RecipientsPage.uploadCSV(RecipientsPage.java:465)
-at SiteTestCases.RecipientsTests.RecipientsPageTests.UploadCSVLongAdress(RecipientsPageTests.java:188)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadCSVLongAdress -->
-        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116]" started-at="2022-11-28T13:09:01 PKT" name="initPageObjectClass" finished-at="2022-11-28T13:09:01 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass -->
-        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116]" started-at="2022-11-28T13:09:01 PKT" name="initPageObjectClass2" finished-at="2022-11-28T13:09:01 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass2 -->
-        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116]" started-at="2022-11-28T13:09:01 PKT" name="initPageObjectClass3" finished-at="2022-11-28T13:09:01 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass3 -->
-        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116]" started-at="2022-11-28T13:09:01 PKT" name="initPageObjectClass4" finished-at="2022-11-28T13:09:01 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass4 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116]" started-at="2022-11-28T13:09:54 PKT" name="tearDown" finished-at="2022-11-28T13:09:54 PKT" duration-ms="236" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UploadCSVLongAdress status=FAILURE method=RecipientsPageTests.UploadCSVLongAdress(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@38467116]" started-at="2022-11-28T13:09:54 PKT" name="closeDriver" finished-at="2022-11-28T13:10:11 PKT" duration-ms="16808" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- SiteTestCases.RecipientsTests.RecipientsPageTests -->
-    </test> <!-- UploadCSVLongAdress -->
-    <test started-at="2022-11-28T13:10:11 PKT" name="UploadCSVUpdateMerge" finished-at="2022-11-28T13:11:05 PKT" duration-ms="53961">
-      <class name="SiteTestCases.RecipientsTests.RecipientsPageTests">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6]" started-at="2022-11-28T13:10:11 PKT" name="initDriver" finished-at="2022-11-28T13:10:13 PKT" duration-ms="1530" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6]" started-at="2022-11-28T13:10:13 PKT" name="initPageObjectClass" finished-at="2022-11-28T13:10:13 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass -->
-        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6]" started-at="2022-11-28T13:10:13 PKT" name="initPageObjectClass1" finished-at="2022-11-28T13:10:13 PKT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass1 -->
-        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6]" started-at="2022-11-28T13:10:13 PKT" name="initPageObjectClass2" finished-at="2022-11-28T13:10:13 PKT" duration-ms="3" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass2 -->
-        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6]" started-at="2022-11-28T13:10:13 PKT" name="initPageObjectClass3" finished-at="2022-11-28T13:10:13 PKT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass3 -->
-        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6]" started-at="2022-11-28T13:10:13 PKT" name="initPageObjectClass4" finished-at="2022-11-28T13:10:13 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass4 -->
-        <test-method signature="UploadCSVUpdateMerge(java.lang.String,java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6]" started-at="2022-11-28T13:10:13 PKT" name="UploadCSVUpdateMerge" finished-at="2022-11-28T13:11:04 PKT" duration-ms="51292" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://qa.portal.packagex.xyz/login]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[@Optional]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[cannot open system clipboard]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: cannot open system clipboard
-at java.desktop/sun.awt.windows.WClipboard.openClipboard(Native Method)
-at java.desktop/sun.awt.windows.WClipboard.setContentsNative(WClipboard.java:75)
-at java.desktop/sun.awt.datatransfer.SunClipboard.setContents(SunClipboard.java:105)
-at SiteElements.SiteActions.uploadAndAttachFile_RecipientCSV(SiteActions.java:181)
-at Recipients.RecipientsPage.attachFileRecipientCSV(RecipientsPage.java:972)
-at Recipients.RecipientsPage.uploadCSV(RecipientsPage.java:469)
-at SiteTestCases.RecipientsTests.RecipientsPageTests.UploadCSVUpdateMerge(RecipientsPageTests.java:203)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadCSVUpdateMerge -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6]" started-at="2022-11-28T13:11:04 PKT" name="tearDown" finished-at="2022-11-28T13:11:04 PKT" duration-ms="301" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UploadCSVUpdateMerge status=FAILURE method=RecipientsPageTests.UploadCSVUpdateMerge(java.lang.String,java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@5fb759d6]" started-at="2022-11-28T13:11:04 PKT" name="closeDriver" finished-at="2022-11-28T13:11:05 PKT" duration-ms="828" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- SiteTestCases.RecipientsTests.RecipientsPageTests -->
-    </test> <!-- UploadCSVUpdateMerge -->
-    <test started-at="2022-11-28T13:11:05 PKT" name="UploadCSVEditUploadMerge" finished-at="2022-11-28T13:12:31 PKT" duration-ms="85621">
-      <class name="SiteTestCases.RecipientsTests.RecipientsPageTests">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86]" started-at="2022-11-28T13:11:05 PKT" name="initDriver" finished-at="2022-11-28T13:11:07 PKT" duration-ms="1707" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86]" started-at="2022-11-28T13:11:07 PKT" name="initPageObjectClass1" finished-at="2022-11-28T13:11:07 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass1 -->
-        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86]" started-at="2022-11-28T13:11:07 PKT" name="initPageObjectClass3" finished-at="2022-11-28T13:11:07 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass3 -->
-        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86]" started-at="2022-11-28T13:11:07 PKT" name="initPageObjectClass" finished-at="2022-11-28T13:11:07 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass -->
-        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86]" started-at="2022-11-28T13:11:07 PKT" name="initPageObjectClass2" finished-at="2022-11-28T13:11:07 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass2 -->
-        <test-method signature="UploadCSVEditUploadMerge(java.lang.String,java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86]" started-at="2022-11-28T13:11:07 PKT" name="UploadCSVEditUploadMerge" finished-at="2022-11-28T13:12:14 PKT" duration-ms="66866" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://qa.portal.packagex.xyz/login]]>
-              </value>
-            </param>
-            <param index="1">
-              <value>
-                <![CDATA[@Optional]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[cannot open system clipboard]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: cannot open system clipboard
-at java.desktop/sun.awt.windows.WClipboard.openClipboard(Native Method)
-at java.desktop/sun.awt.windows.WClipboard.setContentsNative(WClipboard.java:75)
-at java.desktop/sun.awt.datatransfer.SunClipboard.setContents(SunClipboard.java:105)
-at SiteElements.SiteActions.uploadAndAttachFile_RecipientCSV(SiteActions.java:181)
-at Recipients.RecipientsPage.attachFileRecipientCSV(RecipientsPage.java:972)
-at Recipients.RecipientsPage.uploadCSV(RecipientsPage.java:469)
-at SiteTestCases.RecipientsTests.RecipientsPageTests.UploadCSVEditUploadMerge(RecipientsPageTests.java:223)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadCSVEditUploadMerge -->
-        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86]" started-at="2022-11-28T13:11:07 PKT" name="initPageObjectClass4" finished-at="2022-11-28T13:11:07 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass4 -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86]" started-at="2022-11-28T13:12:14 PKT" name="tearDown" finished-at="2022-11-28T13:12:14 PKT" duration-ms="234" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UploadCSVEditUploadMerge status=FAILURE method=RecipientsPageTests.UploadCSVEditUploadMerge(java.lang.String,java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@2dfaea86]" started-at="2022-11-28T13:12:14 PKT" name="closeDriver" finished-at="2022-11-28T13:12:31 PKT" duration-ms="16812" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-      </class> <!-- SiteTestCases.RecipientsTests.RecipientsPageTests -->
-    </test> <!-- UploadCSVEditUploadMerge -->
-    <test started-at="2022-11-28T13:12:31 PKT" name="UploadCSVUnitGroup" finished-at="2022-11-28T13:13:40 PKT" duration-ms="69030">
-      <class name="SiteTestCases.RecipientsTests.RecipientsPageTests">
-        <test-method is-config="true" signature="initDriver(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" started-at="2022-11-28T13:12:31 PKT" name="initDriver" finished-at="2022-11-28T13:12:32 PKT" duration-ms="1590" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[Chrome]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initDriver -->
-        <test-method is-config="true" signature="initPageObjectClass1()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" started-at="2022-11-28T13:12:32 PKT" name="initPageObjectClass1" finished-at="2022-11-28T13:12:32 PKT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass1 -->
-        <test-method is-config="true" signature="initPageObjectClass()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" started-at="2022-11-28T13:12:32 PKT" name="initPageObjectClass" finished-at="2022-11-28T13:12:32 PKT" duration-ms="0" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass -->
-        <test-method is-config="true" signature="initPageObjectClass2()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" started-at="2022-11-28T13:12:32 PKT" name="initPageObjectClass2" finished-at="2022-11-28T13:12:32 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass2 -->
-        <test-method is-config="true" signature="initPageObjectClass3()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" started-at="2022-11-28T13:12:32 PKT" name="initPageObjectClass3" finished-at="2022-11-28T13:12:32 PKT" duration-ms="1" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass3 -->
-        <test-method is-config="true" signature="initPageObjectClass4()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" started-at="2022-11-28T13:12:32 PKT" name="initPageObjectClass4" finished-at="2022-11-28T13:12:32 PKT" duration-ms="2" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- initPageObjectClass4 -->
-        <test-method signature="UploadCSVUnitGroup(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" started-at="2022-11-28T13:12:32 PKT" name="UploadCSVUnitGroup" finished-at="2022-11-28T13:13:23 PKT" duration-ms="50433" status="FAIL">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[https://uat.portal.packagex.xyz/login]]>
-              </value>
-            </param>
-          </params>
-          <exception class="java.lang.IllegalStateException">
-            <message>
-              <![CDATA[cannot open system clipboard]]>
-            </message>
-            <full-stacktrace>
-              <![CDATA[java.lang.IllegalStateException: cannot open system clipboard
-at java.desktop/sun.awt.windows.WClipboard.openClipboard(Native Method)
-at java.desktop/sun.awt.windows.WClipboard.setContentsNative(WClipboard.java:75)
-at java.desktop/sun.awt.datatransfer.SunClipboard.setContents(SunClipboard.java:105)
-at SiteElements.SiteActions.uploadFile_UnitGroup(SiteActions.java:210)
-at Recipients.RecipientsPage.attachFileUnitGroup(RecipientsPage.java:985)
-at Recipients.RecipientsPage.uploadCSV_UnitGroup(RecipientsPage.java:521)
-at SiteTestCases.RecipientsTests.RecipientsPageTests.UploadCSVUnitGroup(RecipientsPageTests.java:253)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
-at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:64)
-at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
-at java.base/java.lang.reflect.Method.invoke(Method.java:564)
-at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:133)
-at org.testng.internal.TestInvoker.invokeMethod(TestInvoker.java:598)
-at org.testng.internal.TestInvoker.invokeTestMethod(TestInvoker.java:173)
-at org.testng.internal.MethodRunner.runInSequence(MethodRunner.java:46)
-at org.testng.internal.TestInvoker$MethodInvocationAgent.invoke(TestInvoker.java:824)
-at org.testng.internal.TestInvoker.invokeTestMethods(TestInvoker.java:146)
-at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:146)
-at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:128)
-at java.base/java.util.ArrayList.forEach(ArrayList.java:1511)
-at org.testng.TestRunner.privateRun(TestRunner.java:794)
-at org.testng.TestRunner.run(TestRunner.java:596)
-at org.testng.SuiteRunner.runTest(SuiteRunner.java:377)
-at org.testng.SuiteRunner.runSequentially(SuiteRunner.java:371)
-at org.testng.SuiteRunner.privateRun(SuiteRunner.java:332)
-at org.testng.SuiteRunner.run(SuiteRunner.java:276)
-at org.testng.SuiteRunnerWorker.runSuite(SuiteRunnerWorker.java:53)
-at org.testng.SuiteRunnerWorker.run(SuiteRunnerWorker.java:96)
-at org.testng.TestNG.runSuitesSequentially(TestNG.java:1212)
-at org.testng.TestNG.runSuitesLocally(TestNG.java:1134)
-at org.testng.TestNG.runSuites(TestNG.java:1063)
-at org.testng.TestNG.run(TestNG.java:1031)
-at org.testng.remote.AbstractRemoteTestNG.run(AbstractRemoteTestNG.java:115)
-at org.testng.remote.RemoteTestNG.initAndRun(RemoteTestNG.java:251)
-at org.testng.remote.RemoteTestNG.main(RemoteTestNG.java:77)
-]]>
-            </full-stacktrace>
-          </exception> <!-- java.lang.IllegalStateException -->
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- UploadCSVUnitGroup -->
-        <test-method is-config="true" signature="tearDown(org.testng.ITestResult)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" started-at="2022-11-28T13:13:23 PKT" name="tearDown" finished-at="2022-11-28T13:13:23 PKT" duration-ms="215" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[[TestResult name=UploadCSVUnitGroup status=FAILURE method=RecipientsPageTests.UploadCSVUnitGroup(java.lang.String)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda] output={null}]]]>
-              </value>
-            </param>
-          </params>
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- tearDown -->
-        <test-method is-config="true" signature="closeDriver()[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" started-at="2022-11-28T13:13:23 PKT" name="closeDriver" finished-at="2022-11-28T13:13:40 PKT" duration-ms="16783" status="PASS">
-          <reporter-output>
-          </reporter-output>
-        </test-method> <!-- closeDriver -->
-        <test-method is-config="true" signature="onFinish(org.testng.ITestContext)[pri:0, instance:SiteTestCases.RecipientsTests.RecipientsPageTests@3feb2dda]" started-at="2022-11-28T13:13:40 PKT" name="onFinish" finished-at="2022-11-28T13:13:40 PKT" duration-ms="0" status="PASS">
-          <params>
-            <param index="0">
-              <value>
-                <![CDATA[org.testng.TestRunner@3c3f0f2e]]>
+                <![CDATA[org.testng.TestRunner@4130955c]]>
               </value>
             </param>
           </params>
           <reporter-output>
           </reporter-output>
         </test-method> <!-- onFinish -->
-      </class> <!-- SiteTestCases.RecipientsTests.RecipientsPageTests -->
-    </test> <!-- UploadCSVUnitGroup -->
-  </suite> <!-- MailRoom2.Automation QA -->
+      </class> <!-- SiteTestCases.SettingsTests.WorkflowsTests.WorkflowsPageTests -->
+    </test> <!-- SignInOptions_EnableMagicLink -->
+  </suite> <!-- MailRoom2.Automation QATest3 -->
 </testng-results>

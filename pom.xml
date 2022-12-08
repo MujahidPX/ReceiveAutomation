@@ -229,13 +229,6 @@
 			<scope>compile</scope>
 		</dependency>
 
-		<dependency>
-			<groupId>se</groupId>
-			<artifactId>se</artifactId>
-			<version>1.0</version>
-			<scope>system</scope>
-			<systemPath>C:\Users\MuhammadMujahid\Downloads\Ounass\Ounass\lib\se.jar</systemPath>
-		</dependency>
 
 	</dependencies>
 

@@ -109,5 +109,5 @@ public class LoginPageTests extends DriverBaseClass {
 		loginPage.loginNegative(GlobalVariables.AutomationEmail , GlobalVariables.AutomationPassword);
 		loginPage.logout();
 	}
-	
+	//
 }
